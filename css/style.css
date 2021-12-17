@@ -1,0 +1,123 @@
+.box1 {
+    width: 200px;
+    height: 200px;
+    color: #000;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 45px 0;
+    font-size: 20px;
+    display: inline-block;
+}
+.main {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 121px;
+}
+.main svg
+{
+	width: 50px;
+	margin: 0 auto;
+	display: block;
+	height: 50px;
+}
+.bottom {
+    text-align: center;
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    color: #6c757d;
+    font-size: 20px;
+}
+.drop-zone {
+  max-width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  color: #cccccc;
+  border: 2px dashed #000;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.data
+{
+text-align: center;
+display: block;
+padding: 0 23px;
+margin-top: 46px;
+}
+
+.drop-zone--over {
+  border-style: solid;
+}
+
+.drop-zone__input {
+  display: none;
+}
+.drop-zone__input1 {
+  display: none;
+}
+
+.drop-zone__thumb {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #cccccc;
+  background-size: cover;
+  position: relative;
+}
+
+.drop-zone__thumb::after {
+  content: attr(data-label);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.75);
+  font-size: 14px;
+  text-align: center;
+}
+.top-text
+{
+text-align: center;
+width: 100%;
+display: block;
+padding-top: 20px;
+font-size: 22px;
+}
+.sub-text
+{
+width: 100%;
+text-align: center;
+display: block;
+padding-top: 20px;
+padding-bottom: 60px;
+}
+div.submit
+{
+margin: 0 auto;
+margin-top: 0px;
+display: block;
+text-align: center;
+margin-top: 30px;
+}
+button.submit
+{
+	border-radius: 0;
+}
+.goback
+{
+	font-size: 18px;
+	color: #000;
+}
